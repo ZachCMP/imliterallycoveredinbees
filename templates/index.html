@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I'm Literally Covered In Bees!</title>
+    <style>
+      body {
+        padding: 2em
+      }
+      h1 {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 3em;
+      }
+      img#bee {
+        animation: 2s linear 0s infinite normal spin;
+        margin: 3em auto 0;
+        display: block;
+      }
+      @keyframes spin {
+        from { transform: rotateY(0deg) }
+        to { transform: rotateY(360deg) }
+      } 
+    </style>
+  </head>
+  <body>
+    <h1>I'm Literally Covered In Bees!</h1>
+    <img id="bee" src="/images/bee.svg" />
+  </body>
+</html>
