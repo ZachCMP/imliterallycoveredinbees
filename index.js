@@ -6,4 +6,4 @@ app.use('/', (req, res) => {
   return res.send('TEST')
 })
 
-app = express.listen(3000)
+app.listen(3000)
